@@ -1,0 +1,301 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+/* search */
+.search {
+    float: right;
+}
+
+.search-container {
+    padding-right: 200px;
+    padding-top: 26px;
+}
+
+.search input {
+    padding: 6px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+/* navbar atas */
+.img-navbar {
+    background-color: rgb(14, 100, 93);
+    padding-left: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+/* navbar cinema - menu */
+.navbar {
+    margin-top: 90px;
+    background-color: rgb(231, 231, 231);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.menu-navbar {
+    display: flex;
+    list-style: none;
+    gap: 4rem;
+
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+
+}
+
+ul li a:hover {
+    color: rgb(158, 139, 29);
+}
+
+/* menu now playing */
+.now-playing {
+    padding-top: 150px;
+    padding-left: 25px;
+}
+
+.now-playing h1 {
+    background-color: rgb(14, 100, 93);
+    text-align: center;
+    margin-right: 85%;
+    color: white;
+}
+
+.container-content-nowplaying {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+
+.text-nowplaying a {
+    text-decoration: none;
+    color: black;
+}
+
+.text-nowplaying {
+    padding-top: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/* menu up coming */
+.up-coming {
+    padding-top: 150px;
+    padding-left: 25px;
+}
+
+.up-coming h1 {
+    background-color: rgb(14, 100, 93);
+    text-align: center;
+    margin-right: 85%;
+    color: white;
+}
+
+.container-content-upcoming {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+
+}
+
+.text-upcoming a {
+    text-decoration: none;
+    color: black;
+}
+
+.text-upcoming {
+    padding-top: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* dalam film */
+
+.now-play {
+    padding-top: 150px;
+    font-size: 20px;
+    padding-left: 35px;
+}
+
+.img-film {
+    padding-left: 35px;
+}
+
+.container {
+    display: flex;
+}
+
+.content {
+    padding-left: 20px;
+    padding-right: 300px;
+    font-size: 20px;
+}
+
+/* theaters */
+
+.navbar-theaters-cinema {
+    margin-top: 150px;
+    background-color: rgb(14, 100, 93);
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 170px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.tabel{
+    padding-left: 170px;
+    padding-right: 170px;
+    margin-top: -170px;
+}
+
+.huruf {
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 200px;
+    font-size: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.huruf a {
+    color: black;
+    text-decoration: none;
+}
+
+.huruf:hover {
+    background-color: rgb(230, 252, 250);
+}
+
+.navbar-bawah {
+    background-color: rgb(250, 248, 248);
+    margin-top: 40px;
+    margin-right: 170px;
+    margin-left: 170px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* di dalam tempat beachwalk dll */
+
+.beachwalk-nav {
+    background-color: rgb(14, 100, 93);
+    margin-top: 146px;
+}
+
+.text-beachwalk-nav {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.img-beachwalk {
+    margin-left: 60px;
+}
+
+.container-beachwwalk {
+    display: flex;
+}
+
+.text-beachwalk {
+    padding-top: 50px;
+    padding-left: 60px;
+    font-size: 25px;
+}
+
+.map {
+    display: flex;
+    margin-left: 285px;
+    margin-top: 50px;
+}
+
+.navbawah-beachwalk {
+    background-color: rgb(14, 100, 93);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 60px;
+    margin-right: 660px;
+    margin-top: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.navpalingbawah-beachwalk {
+    background-color: rgb(14, 100, 93);
+    margin-top: 1px;
+    margin-left: 60px;
+    margin-right: 660px;
+    text-align: center;
+    color: white;
+}
+
+.navend-beachwalk1 {
+    background-color: rgb(231, 231, 231);
+    margin-left: 60px;
+    margin-right: 660px;
+}
+
+.navend-beachwalk1 img {
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 200px;
+}
+
+.container-beachwwalk-bawah {
+    display: flex;
+}
+
+h5 {
+    padding-top: 100px;
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+button {
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+}
+
+/* di dalam tempat galeria, livingworld, park23 */
+
+.navbawah-galeria-living {
+    background-color: rgb(14, 100, 93);
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-right: 660px;
+}
+
+
+footer {
+    background-color: rgb(14, 100, 93);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
